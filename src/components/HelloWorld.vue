@@ -25,7 +25,7 @@
         @change="currentinput"
       >
       <template #cell(Settings)="data">
-        <button class="btn bot" @click="data">
+        <button class="btn bot" @change="data">
         <span class="bx bxs-edit"></span>
         </button>
         <button class="btn bot">
